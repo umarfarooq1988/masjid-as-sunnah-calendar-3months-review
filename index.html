@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Masjid As Sunnah Prayer Calendar 2024</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Roboto", sans-serif;
+    }
+
+    .main {
+      box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .month {
+      background: none;
+      outline: none;
+    }
+
+    .islamic-month {
+      background: none;
+      outline: none;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./script.js" defer></script>
+</head>
+
+<body class="flex justify-center my-5">
+  <div class="main px-9 py-8">
+    <section class="relative w-[850px] flex flex-col justify-center items-center">
+      <img class="h-[180px]" src="./Assets/top-masjid-image.png" alt="Top-Masjid-Image" />
+      <!-- Top Logo -->
+      <img class="absolute w-[25%] top-4 mr-5" src="./Assets/top-logo.png" alt="top-logo" />
+      <div class="absolute top-[125px] flex justify-between items-center w-full px-4">
+        <div class="flex items-center mt-7">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 32 32" id="phone">
+            <path d="M13.216 8.064c-.382-4.394-4.966-6.55-5.16-6.638a.974.974 0 0 0-.582-.078c-5.292.878-6.088 3.958-6.12 4.086a.99.99 0 0 0 .02.54c6.312 19.584 19.43 23.214 23.742 24.408.332.092.606.166.814.234a.99.99
+                 0 0 0 .722-.042c.132-.06 3.248-1.528 4.01-6.316a.997.997 0 0 0-.096-.612c-.068-.132-1.698-3.234-6.218-4.33a.977.977 0 0 0-.884.21c-1.426 1.218-3.396 2.516-4.246 2.65-5.698-2.786-8.88-8.132-9-9.146-.07-.57
+                1.236-2.572 2.738-4.2a.998.998 0 0 0 .26-.766z"></path>
+          </svg>
+          <div class="ml-2 text-[14px] font-medium opacity-[80%]">
+            01274 501 736
+          </div>
+        </div>
+
+        <div class="text-center">
+          <input name="Month" type="text" id="solar-month" value="" placeholder="Month"
+            class="month pl-3 font-semibold w-[110px] text-[17px] uppercase outline-none opacity-[80%] text-center"
+            onchange="handleInputChange('solar-month')" />
+          <input name="Month" type="text" id="solar-year" value="" placeholder="Year"
+            class="month w-[50px] font-semibold text-[17px] uppercase outline-none text-center opacity-[80%]"
+            onchange="handleInputChange('solar-year')" />
+          <div class="font-medium text-[12px] opacity-[80%]">
+            <input name="" type="text" id="hijri-input" value="" placeholder="Enter Month - Hijri"
+              class="islamic-month ml-3 w-[250px] text-center outline-none" onchange="handleInputChange('hijr-year')" />
+          </div>
+        </div>
+        <div class="flex items-center mt-7">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" opacity="1" viewBox="-50.929 -46 1024 1024"
+            id="global">
+            <path
+              d="M376.121 897.63C262.361 875.49 164.271 809 100.151 718h160.61c27.449 81 67.77 144.77 115.36 179.63zM222.17 485c1.51 69 11.01 135 26.78 194H75.741c-32.14-58-51.6-124-54.61-194H222.17zm218.901 0v194H293.69c-15.55-58-25.03-124-26.52-194h173.901zm-135.41 233h135.411v165.627C386.071 871.967 337.411 810 305.661 718zM76.041 252h172.81c-15.81 58-25.29 124-26.71 195H21.111c2.96-71 22.54-137 54.93-195zm365.03 0v195h-173.93c1.4-71 10.86-138 26.45-195h147.48zm-180.43-39h-160.11c63.82-91 161.11-156.35 273.94-178.76-46.94 35.15-86.69 97.76-113.83 178.76zm180.43-167.723V213h-135.54c31.75-93 80.54-156.043 135.54-167.723zm39 672.723H615.3c-31.489 91-80.229 152.937-135.229 165.337V718zM653.79 485c-1.49 70-10.97 136-26.52 194H480.071V485H653.79zm-26.42-233c15.59 57 25.05 124 26.45 195H480.071V252H627.37zm-11.94-39H480.071V45.567C536.071 57.987 583.93 121 615.43 213zm205.44 0H660.32c-27.17-81-66.98-143.74-113.98-178.88C659.42 56.42 756.94 122 820.87 213zm79.42 234H698.82c-1.42-71-10.9-137-26.71-195h173.25c32.39 58 51.97 124 54.93 195zM660.2 718h161.05c-64.24 91-162.56 157.72-276.58 179.75C592.33 862.92 632.72 799 660.2 718zm240.071-233c-3.011 70-22.471 136-54.61 194H672.01c15.771-59 25.271-125 26.78-194h201.481z">
+            </path>
+            <path
+              d="M441.071 485v194H293.69c-15.55-58-25.03-124-26.52-194h173.901zm-135.41 233h135.411v165.627C386.071 871.967 337.411 810 305.661 718zm135.41-466v195h-173.93c1.4-71 10.86-138 26.45-195h147.48zm0-206.723V213h-135.54c31.75-93 80.54-156.043 135.54-167.723zm39 672.723H615.3c-31.489 91-80.229 152.937-135.229 165.337V718zM653.79 485c-1.49 70-10.97 136-26.52 194H480.071V485H653.79zm-26.42-233c15.59 57 25.05 124 26.45 195H480.071V252H627.37zm-11.94-39H480.071V45.567C536.071 57.987 583.93 121 615.43 213z">
+            </path>
+            <path
+              d="M441.071 45.277V213h-135.54c31.75-93 80.54-156.043 135.54-167.723zm0 206.723v195h-173.93c1.4-71 10.86-138 26.45-195h147.48zm0 233v194H293.69c-15.55-58-25.03-124-26.52-194h173.901zm-135.41 233h135.411v165.627C386.071 871.967 337.411 810 305.661 718zm174.41 0H615.3c-31.489 91-80.229 152.937-135.229 165.337V718zM653.79 485c-1.49 70-10.97 136-26.52 194H480.071V485H653.79zm-38.36-272H480.071V45.567C536.071 57.987 583.93 121 615.43 213zm38.39 234H480.071V252H627.37c15.59 57 25.05 124 26.45 195z">
+            </path>
+          </svg>
+          <div class="ml-2 text-[14px] font-medium opacity-[80%]">
+            www.albaseerah.com
+          </div>
+        </div>
+      </div>
+      <!-- Top Title -->
+      <section class="relative text-center w-full">
+        <img src="./Assets/top-title-rectangle.png" alt="top-title-rectangle" />
+        <div class="absolute top-0 right-[308px] text-white opacity-[100%]">
+          <div class="text-[14px]">Approximate Prayer Start Times*</div>
+          <h2 class="font-medium">CONGREGATIONAL PRAYERS TIMES</h2>
+        </div>
+      </section>
+      <!-- Month Date Title -->
+      <div class="relative text-center w-full mt-2">
+        <img class="h-[70px]" src="./Assets/top-title-rectangle.png" alt="top-title-rectangle" />
+        <div class="absolute flex items-center top-0 text-white opacity-[100%]">
+          <div>
+            <div class="border-b border-r font-medium px-1 py-0.5">
+              <div id="calendar-solar-month" class="text-[14px]">January</div>
+              <div id="calendar-hijri-month" class="text-[10px]">
+                Jumādā al-Thānī
+              </div>
+            </div>
+            <div class="flex items-center text-[14px]">
+              <div class="px-2 border-r py-1">Date</div>
+              <div class="px-2 border-r py-1">Day</div>
+              <div class="px-3 border-r py-1">Hijri</div>
+            </div>
+          </div>
+          <div>
+            <div class="border-b border-r font-medium px-3 py-0.5">
+              <div class="text-[14px] py-[7.5px]">Fajr</div>
+            </div>
+            <div class="flex items-center text-[14px]">
+              <div class="px-3.5 border-r py-1">Start</div>
+              <div class="px-2 border-r py-1">Jamaa'ah</div>
+            </div>
+          </div>
+          <div class="text-[14px] px-4">Sunrise</div>
+          <div class="border-x text-[13px]">
+            <div class="py-2.5 px-3 border-b">Duhar</div>
+            <div class="py-1.5 px-3">Start</div>
+          </div>
+          <div class="text-[14px] px-4">
+            <div>Jumu'ah</div>
+            <div>Jamaa'ah</div>
+          </div>
+          <div>
+            <div class="border-b border-x font-medium px-3 py-0.5">
+              <div class="text-[14px] py-[7.5px]">Asr</div>
+            </div>
+            <div class="flex items-center text-[14px]">
+              <div class="px-3.5 border-x py-1">Start</div>
+              <div class="px-2 border-r py-1">Jamaa'ah</div>
+            </div>
+          </div>
+          <div class="text-[14px] px-4">Maghrib</div>
+          <div>
+            <div class="border-b border-l font-medium px-3 py-0.5">
+              <div class="text-[14px] py-[7.5px]">Ishaa</div>
+            </div>
+            <div class="flex items-center text-[14px]">
+              <div class="px-3.5 border-x py-1">Start</div>
+              <div class="px-1 py-1">Jamaa'ah</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dynamic Calendar -->
+    <div id="calendar" class="mt-1"></div>
+
+    <section>
+      <!-- Bottom Jumua Bar -->
+      <div class="relative mt-1 w-[850px]">
+        <img src="./Assets/bottom-jumua-bar.png" alt="Bottom-Jumua_bar" />
+        <div class="absolute top-0 text-white">
+          <div class="text-[15px] ml-32 mt-3 font-medium">
+            JUMU'AH KHUTBAH STARTS AT APPROX 12:30PM AND THE PRAYER WILL BE AT
+            1:00PM.
+          </div>
+        </div>
+      </div>
+      <!-- Bottom Container -->
+      <div class="relative w-[850px] flex flex-col justify-center items-center mt-2">
+        <img class="h-[150px]" src="./Assets/bottom-container.png" alt="Top-Masjid-Image" />
+        <div class="absolute top-2 flex items-center">
+          <div class="h-[1px] bg-black w-[75px] mr-2 opacity-[60%]"></div>
+          <div class="text-[14px] font-semibold opacity-[70%]">
+            IMPORTANT NOTE
+          </div>
+          <div class="h-[1px] bg-black w-[75px] ml-2 opacity-[60%]"></div>
+        </div>
+        <p class="absolute top-8 text-center text-[13px] px-8">
+          The rulings connected with prayers times are determined by seeing
+          with the nacked eye. It is not correct that one should overburden
+          oneself by meticulously following timetables based upon astronomical
+          calculations. Rather the <strong>Sunnah</strong> is else, and this
+          timetable is merely an approximate guide.
+        </p>
+        <img class="absolute bottom-2 left-3 w-[45px]" src="./Assets/bottom-SalafiBookStore-logo.png"
+          alt="bottom-SalafiBookStore-logo" />
+        <div class="absolute bottom-3 text-center px-[130px] text-[13px]">
+          See 'Mojmoo' al-Fatawa' of Shykhul-Islaam Ibn Taymeeyyah
+          (25/126-202),<br />
+          'Al-Majmoo' of an-Nawawee (6/279), 'At-Talkheesul-Habeer' of Ibn
+          Hajr (2/187-188)
+        </div>
+        <img class="absolute bottom-2 right-3 w-[65px]" src="./Assets/bottom-AQS-quraan-logo.png" alt="quraan-logo" />
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
